@@ -1,0 +1,24 @@
+package p11.Tugas;
+
+public class Podcast extends Media implements Favoritable {
+
+    Podcast(String judul, double durasi) {
+        super(judul, durasi);
+    }
+
+    public void play() {
+        System.out.println("Memutar lagu: " + judul + ", Durasi: " + durasi + " menit");
+    }
+
+    public void pause() {
+        System.out.println("Menjeda podcast: " + judul);
+    }
+
+    public void stop() {
+        System.out.println("Menghentikan podcast: " + judul);
+    }
+
+    public void tambahKeFavorit() {
+        System.out.println("Podcast \"" + judul + "\" telah ditambahkan ke favorit.");
+    }
+}
