@@ -1,5 +1,7 @@
 package p11.Tugas;
 
+//pendefinisian interface
 public interface Favoritable {
-    void tambahKeFavorit();
+    void tambahKeFavorit(); // Metode abstrak yang harus diimplementasikan oleh kelas yang
+                            // mengimplementasikan interface ini
 }
