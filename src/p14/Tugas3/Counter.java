@@ -8,6 +8,7 @@ public class Counter {
         instanceCount++;
     }
 
+    // Method static untuk mengakses nilai instanceCount
     public static int getInstanceCount() {
         return instanceCount;
     }
